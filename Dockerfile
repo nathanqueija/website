@@ -8,4 +8,4 @@ COPY --chown=node:node . .
 USER node
 EXPOSE 8080
 RUN npm run build
-RUN npm run start
+CMD ["npm", "run", "start"]
