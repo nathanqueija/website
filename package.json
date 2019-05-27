@@ -1,0 +1,18 @@
+{
+  "name": "nextjs-react",
+  "version": "1.0.0",
+  "description": "A simple project with React, Nextjs and CI/CD cycle",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "author": "Nathan Queija <nathanqcam@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "next": "^8.1.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  }
+}
