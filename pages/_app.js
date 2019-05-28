@@ -13,7 +13,7 @@ const theme = {
     quaternary: '#1b293f',
     text: '#232426'
   },
-  fontFamily: "'Nunito Sans', sans-serif"
+  fontFamily: "'Fira Mono', monospace"
 };
 
 export default class MyApp extends App {
@@ -35,10 +35,10 @@ export default class MyApp extends App {
           <Head>
             <title>Nathan Queija | Software Engineer</title>
             <link
-              href="https://fonts.googleapis.com/css?family=Nunito+Sans:300,400,700&display=swap"
+              href="https://fonts.googleapis.com/css?family=Fira+Mono:400,500,700&display=swap"
               rel="stylesheet"
             />
-
+            >
             <link
               rel="apple-touch-icon"
               sizes="180x180"
