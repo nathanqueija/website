@@ -1,11 +1,8 @@
-FROM node:10
-RUN mkdir -p /home/node/app/node_modules && chown -R node:node /home/node/app
-WORKDIR /home/node/app
-COPY package*.json ./
+FROM node:latest
+WORKDIR /app
+ADD package.json .npmrc ./
+ENV NPM_CONFIG_LOGLEVEL warn
 RUN npm install
-COPY . .
-COPY --chown=node:node . .
-USER node
-EXPOSE 8080
-RUN npm run build
-CMD ["npm", "run", "start"]
+ADD pages ./pages
+RUN NODE_ENV=production npm run build
+CMD npm run start
