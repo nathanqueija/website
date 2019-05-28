@@ -1,4 +1,4 @@
-# Next.js simple project [![Build Status](https://travis-ci.org/nathanqueija/nextjs-react.svg?branch=master)](https://travis-ci.org/nathanqueija/nextjs-react)
+# Next.js simple project [![Build Status](https://travis-ci.org/nathanqueija/nextjs-react.svg?branch=master)](https://travis-ci.org/nathanqueija/nextjs-react)[![Coverage Status](https://coveralls.io/repos/github/nathanqueija/nextjs-react/badge.svg?branch=master)](https://coveralls.io/github/nathanqueija/nextjs-react?branch=master)
 
 This is a simple project built with Next.js
 The aim of this project is to simple run a function than unflatten an array and show the result visually using React components.
@@ -10,3 +10,4 @@ Git hooks are managed by husky. Currently there is only a pre-push hook to run t
 Next steps:
 
 - Setup deployment with docker containers
+- Setup coveralls
