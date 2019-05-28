@@ -1,4 +1,4 @@
 module.exports = {
-  setupFiles: ['./jest.setup.js'],
-  testIgnorePatterns: ['./.idea', './.next', './node_modules']
+  setupFiles: ['<rootDir>/jest.setup.js'],
+  testPathIgnorePatterns: ['<rootDir>/.next/', '<rootDir>/node_modules/']
 };
