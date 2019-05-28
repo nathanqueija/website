@@ -13,7 +13,7 @@ const theme = {
     quaternary: '#1b293f',
     text: '#232426'
   },
-  fontFamily: "'Libre Baskerville', serif"
+  fontFamily: "'Nunito Sans', sans-serif"
 };
 
 export default class MyApp extends App {
@@ -35,9 +35,10 @@ export default class MyApp extends App {
           <Head>
             <title>Nathan Queija | Software Engineer</title>
             <link
-              href="https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400i,700&display=swap"
+              href="https://fonts.googleapis.com/css?family=Nunito+Sans:300,400,700&display=swap"
               rel="stylesheet"
             />
+
             <link
               rel="apple-touch-icon"
               sizes="180x180"
