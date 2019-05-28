@@ -10,3 +10,4 @@ Git hooks are managed by husky. Currently there is only a pre-push hook to run t
 Next steps:
 
 - Setup deployment with docker containers
+- Setup coveralls
