@@ -7,7 +7,8 @@
     "dev": "node server.js",
     "build": "next build",
     "start": "NODE_ENV=production node server.js",
-    "test": "NODE_ENV=test jest --coverage && cat ./tests/coverage/lcov.info | coveralls"
+    "test": "NODE_ENV=test jest",
+    "coveralls": "jest --coverage && cat ./tests/coverage/lcov.info | coveralls"
   },
   "author": "Nathan Queija <nathanqcam@gmail.com>",
   "license": "ISC",
