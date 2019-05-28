@@ -2,40 +2,8 @@ import App, { Container } from 'next/app';
 import Head from 'next/head';
 import React from 'react';
 import { ThemeProvider } from 'styled-components';
-import { createGlobalStyle } from 'styled-components';
+import GlobalStyles from 'components/globalStyles';
 import Layout from 'components/layout';
-
-const GlobalStyles = createGlobalStyle`
-
-
-  html {
-    color: ${({ theme }) => theme.colors.text};
-    font-family: ${({ theme }) => theme.fontFamily};
-    font-size: 100%;
-    -webkit-font-smoothing: antialiased;
-    box-sizing: border-box;
-  }
-  body {
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    font-size: 1rem;
-    line-height: 1.5;
-
-
-  }
-
-  *, *:before, *:after {
-      box-sizing: inherit;
-    }
-
-
-  a {
-  :hover{
-    background: ${({ theme }) => theme.colors.secondary};
-  }
-  }
-`;
 
 const theme = {
   colors: {
