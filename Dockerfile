@@ -1,8 +1,8 @@
-FROM node:latest
+FROM node:10
 WORKDIR /app
-ADD package.json .npmrc ./
+ADD package.json ./
 ENV NPM_CONFIG_LOGLEVEL warn
 RUN npm install
-ADD pages ./pages
-RUN NODE_ENV=production npm run build
+COPY . .
+RUN npm run build
 CMD npm run start
