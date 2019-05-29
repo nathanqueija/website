@@ -7,11 +7,13 @@ const menu = [
 ];
 const NavBar = () => (
   <Nav>
+    <NavLink href='/b'>A</NavLink>
     {menu.map(({ path, label }) => (
       <NavLink key={path} href={path}>
         {label}
       </NavLink>
     ))}
+    <NavLink href='/c'>B</NavLink>
   </Nav>
 );
 
