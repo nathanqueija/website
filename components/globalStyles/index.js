@@ -14,7 +14,7 @@ export default createGlobalStyle`
   }
   body {
     margin: 0;
-    padding: 30px;
+    padding: 20px;
     background: #F4F5F7;
     height: 100%;
     font-size: 1rem;
@@ -46,14 +46,10 @@ export default createGlobalStyle`
   }
 
   #__next{
-    height: 100%;
-    overflow: hidden;
-    background: ${({ theme }) => theme.colors.background};
-    overflow: hidden;
-    border-radius: 5px;   
-    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
-    border: 1px solid #6c6c70;
+    height: calc(100vh - 40px);
   }
+
+ 
 
   *, *:before, *:after {
       box-sizing: inherit;

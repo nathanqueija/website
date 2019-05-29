@@ -15,10 +15,12 @@
   "author": "Nathan Queija <nathanqcam@gmail.com>",
   "license": "ISC",
   "dependencies": {
+    "d3-ease": "^1.0.5",
     "express": "^4.17.1",
     "next": "^8.1.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
+    "react-spring": "^8.0.20",
     "styled-components": "^4.2.0"
   },
   "devDependencies": {
