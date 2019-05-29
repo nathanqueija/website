@@ -1,4 +1,4 @@
-# Personal portfolio: [nathanqueija.tech](https://nathanqueija.tech) [![Build Status](https://travis-ci.org/nathanqueija/nextjs-react.svg?branch=master)](https://travis-ci.org/nathanqueija/nextjs-react)[![Coverage Status](https://coveralls.io/repos/github/nathanqueija/nextjs-react/badge.svg?branch=master)](https://coveralls.io/github/nathanqueija/nextjs-react?branch=master)
+# Personal website: [nathanqueija.tech](https://nathanqueija.tech) [![Build Status](https://travis-ci.org/nathanqueija/nextjs-react.svg?branch=master)](https://travis-ci.org/nathanqueija/nextjs-react)[![Coverage Status](https://coveralls.io/repos/github/nathanqueija/nextjs-react/badge.svg?branch=master)](https://coveralls.io/github/nathanqueija/nextjs-react?branch=master)
 
 This is a simple project built with Next.js
 The aim of this project is to simple run a function than unflatten an array and show the result visually using React components.
