@@ -30,7 +30,8 @@ export default createGlobalStyle`
     background: ${({ theme }) => theme.colors.background};
     overflow: hidden;
     border-radius: 5px;   
-    box-shadow:inset 0 1px 0 rgba(255,255,255,.6), 0 22px 70px 4px rgba(0,0,0,0.56), 0 0 0 1px rgba(0, 0, 0, 0.7);
+    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+    border: 1px solid ${({ theme }) => theme.colors.textLight};
   }
 
   *, *:before, *:after {

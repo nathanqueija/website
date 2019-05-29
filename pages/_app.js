@@ -8,11 +8,13 @@ import Layout from 'components/layout';
 const theme = {
   colors: {
     background: '#282A36',
-    primary: '#727272',
-    secondary: '#838487',
-    tertiary: '#40c9bb',
-    quaternary: '#20232E',
-    text: 'white'
+    backgroundDark: '#21222F',
+    primary: '#96E6F7',
+    secondary: '#FE93D1',
+    tertiary: '#59F68C',
+    quaternary: '#FF6F67',
+    text: 'white',
+    textLight: '#505059'
   },
   fontFamily: "'Fira Mono', monospace"
 };
@@ -35,6 +37,10 @@ export default class MyApp extends App {
         <Container>
           <Head>
             <title>Nathan Queija | Software Engineer</title>
+            <meta
+              http-equiv='Content-Type'
+              content='text/html; charset=utf-8'
+            />
             <link
               href='https://fonts.googleapis.com/css?family=Fira+Mono:400,500,700&display=swap'
               rel='stylesheet'

@@ -3,11 +3,10 @@ import styled, { css } from 'styled-components';
 export default styled.a`
   text-decoration: none;
   font-size: 14px;
-  text-transform: uppercase;
   font-weight: 700;
-  color: ${({ theme }) => theme.colors.secondary};
+  color: ${({ theme }) => theme.colors.textLight};
   height: 100%;
-  padding: 5px;
+  padding: 5px 10px;
   display: flex;
   justify-content: center;
   align-items: center;
