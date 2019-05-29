@@ -14,7 +14,8 @@ const theme = {
     tertiary: '#59F68C',
     quaternary: '#FF6F67',
     text: 'white',
-    textLight: '#505059'
+    textLight: '#87878B',
+    hover: '#3A3C48'
   },
   fontFamily: "'Fira Mono', monospace"
 };

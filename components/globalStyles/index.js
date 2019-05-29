@@ -22,6 +22,27 @@ export default createGlobalStyle`
     height: 100vh;
     width: 100vw;
 
+     /* Location of the image */
+  background-image: url(/static/imgs/bg.jpg);
+  
+  /* Background image is centered vertically and horizontally at all times */
+  background-position: center center;
+  
+  /* Background image doesn't tile */
+  background-repeat: no-repeat;
+  
+  /* Background image is fixed in the viewport so that it doesn't move when 
+     the content's height is greater than the image's height */
+  background-attachment: fixed;
+  
+  /* This is what makes the background image rescale based
+     on the container's size */
+  background-size: cover;
+  
+  /* Set a background color that will be displayed
+     while the background image is loading */
+  background-color: #464646;
+
   }
 
   #__next{
@@ -31,7 +52,7 @@ export default createGlobalStyle`
     overflow: hidden;
     border-radius: 5px;   
     box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
-    border: 1px solid ${({ theme }) => theme.colors.textLight};
+    border: 1px solid #6c6c70;
   }
 
   *, *:before, *:after {
