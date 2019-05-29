@@ -21,4 +21,5 @@ const activeStyles = css`
   border-color: #4d4f58;
   border-style: solid;
   border-width: 1px 1px 0 1px;
+  height: 102%;
 `;
