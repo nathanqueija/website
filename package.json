@@ -1,6 +1,6 @@
 {
   "name": "nextjs-react",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "A simple project with React, Nextjs and CI/CD cycle",
   "main": "index.js",
   "scripts": {
@@ -20,6 +20,7 @@
     "next": "^8.1.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
+    "react-icons": "^3.7.0",
     "react-spring": "^8.0.20",
     "styled-components": "^4.2.0"
   },
