@@ -6,24 +6,39 @@ export default createGlobalStyle`
   html {
     color: ${({ theme }) => theme.colors.text};
     font-family: ${({ theme }) => theme.fontFamily};
+    
     font-size: 100%;
     -webkit-font-smoothing: antialiased;
     box-sizing: border-box;
+  
   }
   body {
     margin: 0;
-    padding: 0;
-    width: 100%;
+    padding: 30px;
+    background: #F4F5F7;
+    height: 100%;
     font-size: 1rem;
     line-height: 1.5;
+    height: 100vh;
+    width: 100vw;
 
+  }
 
+  #__next{
+    height: 100%;
+    overflow: hidden;
+    background: ${({ theme }) => theme.colors.background};
+    overflow: hidden;
+    border-radius: 5px;   
+    box-shadow:inset 0 1px 0 rgba(255,255,255,.6), 0 22px 70px 4px rgba(0,0,0,0.56), 0 0 0 1px rgba(0, 0, 0, 0.7);
   }
 
   *, *:before, *:after {
       box-sizing: inherit;
     }
-
+  main {
+    padding: 10px;
+  }
   main a {
       text-decoration: none;
    line-height: 1;
@@ -33,7 +48,7 @@ export default createGlobalStyle`
    display: inline-block;
    padding: 5px 5px;
    overflow: hidden;
-   color: ${({ theme: { colors } }) => colors.quaternary};
+   color: ${({ theme: { colors } }) => colors.text};
    vertical-align: bottom;
    transition: color .3s ease-out;
 

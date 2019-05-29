@@ -1,20 +1,17 @@
 import styled from 'styled-components';
 
 export default styled.nav`
-  background: ${({ theme }) => theme.colors.secondary};
+  background: ${({ theme }) => theme.colors.quaternary};
   height: 60px;
-  border-bottom: 5px solid ${({ theme }) => theme.colors.quaternary};
   display: flex;
-  justify-content: flex-end;
   align-items: center;
-  padding: 10px;
+  border-bottom: 1px solid #4d4f58;
 
-  a {
-    text-decoration: none;
-    font-size: 14px;
-    text-transform: uppercase;
-    font-weight: 700;
-    color: ${({ theme }) => theme.colors.quaternary};
-    margin-right: 10px;
+  > :first-child {
+    border-radius: 5px 0 0 0;
+  }
+
+  > :last-child {
+    border-radius: 0 5px 0 0;
   }
 `;

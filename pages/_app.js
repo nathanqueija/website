@@ -7,11 +7,12 @@ import Layout from 'components/layout';
 
 const theme = {
   colors: {
+    background: '#282A36',
     primary: '#727272',
-    secondary: '#8de1f4',
+    secondary: '#838487',
     tertiary: '#40c9bb',
-    quaternary: '#1b293f',
-    text: '#232426'
+    quaternary: '#20232E',
+    text: 'white'
   },
   fontFamily: "'Fira Mono', monospace"
 };
@@ -35,28 +36,28 @@ export default class MyApp extends App {
           <Head>
             <title>Nathan Queija | Software Engineer</title>
             <link
-              href="https://fonts.googleapis.com/css?family=Fira+Mono:400,500,700&display=swap"
-              rel="stylesheet"
+              href='https://fonts.googleapis.com/css?family=Fira+Mono:400,500,700&display=swap'
+              rel='stylesheet'
             />
             >
             <link
-              rel="apple-touch-icon"
-              sizes="180x180"
-              href="/static/favicon/apple-touch-icon.png"
+              rel='apple-touch-icon'
+              sizes='180x180'
+              href='/static/favicon/apple-touch-icon.png'
             />
             <link
-              rel="icon"
-              type="image/png"
-              sizes="32x32"
-              href="/static/favicon/favicon-32x32.png"
+              rel='icon'
+              type='image/png'
+              sizes='32x32'
+              href='/static/favicon/favicon-32x32.png'
             />
             <link
-              rel="icon"
-              type="image/png"
-              sizes="16x16"
-              href="/static/favicon/favicon-16x16.png"
+              rel='icon'
+              type='image/png'
+              sizes='16x16'
+              href='/static/favicon/favicon-16x16.png'
             />
-            <link rel="manifest" href="/static/favicon/site.webmanifest" />
+            <link rel='manifest' href='/static/favicon/site.webmanifest' />
           </Head>
           <GlobalStyles />
           <Layout>

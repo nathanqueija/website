@@ -1,11 +1,17 @@
 import Nav from './NavBar.style';
-const NavBar = props => (
+import NavLink from './NavLink';
+
+const menu = [
+  { path: '/', label: 'About me' },
+  { path: '/about-this', label: 'About this site' }
+];
+const NavBar = () => (
   <Nav>
-    <a href="#">Home</a>
-    <a href="#">Interview</a>
-    <a href="#">Languages</a>
-    <a href="#">Data Structure</a>
-    <a href="#">Algorithm</a>
+    {menu.map(({ path, label }) => (
+      <NavLink key={path} href={path}>
+        {label}
+      </NavLink>
+    ))}
   </Nav>
 );
 
