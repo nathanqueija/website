@@ -1,10 +1,16 @@
 import styled from 'styled-components';
 
 export default styled.p`
-  padding: 0;
-  margin: 0;
   display: flex;
   align-items: center;
+  position: fixed;
+  z-index: 3;
+  width: 100%;
+  background: ${({ theme }) => theme.colors.background};
+  margin: 0;
+  padding-top: 10px;
+  left: 0;
+  top: 45px;
 
   svg {
     width: 15px;

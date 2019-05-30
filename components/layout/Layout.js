@@ -14,6 +14,7 @@ const Layout = ({ children }) => {
     transform: 'scale(1)',
     from: { transform: 'scale(0)' }
   });
+
   return (
     <Wrapper style={props}>
       <NavBar />
