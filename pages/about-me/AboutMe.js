@@ -82,15 +82,15 @@ export default () => {
             make the world a better place and the most fun part: I could
             participate on that. We all can, actually. <br />
             To make the long story short, since 2009 I've been working with
-            software development. Until 2014 I worked with game developed mainly
-            focusing on education and in 2015 I decided to move to web
+            software development. Until 2014 I worked with game development
+            mainly focusing on education and in 2015 I decided to move to web
             development and since then I've been working as a Frontend
             Developer.
             <br />
             I love programming because it is like art for me. Most of the times
             you need create something out of nothing and this is the most fun
             part in my opinion: the creation. I love translating user's needs to
-            functional interfaces and make other people's lives easier.
+            functional interfaces that help.
             <br />
             As an engineer I have experience in some fields in software
             development like games, websites, SaaS platforms, mobile
