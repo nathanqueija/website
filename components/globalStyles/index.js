@@ -94,21 +94,21 @@ h1,h2,h3{
    position: relative;
     z-index: 1;
     margin: 5px 0;
-    text-shadow: 1px 1px 0px ${({ theme: { colors } }) =>
+    text-shadow: 2px 2px 0px ${({ theme: { colors } }) =>
       colors.backgroundDark};
         display: table;
 
 
     :before {
     position: absolute;
-    bottom: 10%;
+    bottom: 40%;
     z-index: -1;
     width: 100%;
-    height: 20%;
+    height: 30%;
     content: '';
 
 
-    transform: skew(50deg)
+    transform: rotate(2deg) skew(40deg)
 
 
 
